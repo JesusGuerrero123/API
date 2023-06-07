@@ -1,0 +1,18 @@
+.cards-container{
+    width: 1300px;
+    height: 400px;
+}
+.card {
+    display: inline-block;
+    margin: 5px;
+    height: calc(300px - 20px);
+    width: calc(550px - 10px);
+    
+}
+.card:hover{
+    transform: scale(0.90);
+}
+.card-image {
+    height: calc(200px - 15px);
+    width: calc(300px - 10px);
+}
